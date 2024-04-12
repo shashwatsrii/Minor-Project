@@ -9,7 +9,9 @@ Adversarial Filter for Deepfake Prevention
 }
 
 #### Step 1 : git clone https://github.com/shashwatsrii/Minor-Project/tree/main
-#### Step 2 : pip install -r requirements.txt
-#### Step 3 : icacls download.sh /grant Everyone:RX
-#### Step 4 : bash download.sh celeba
-#### Step 5 : python main.py --mode test --image_size 256 --c_dim 5 --selected_attrs Black_Hair Blond_Hair Brown_Hair Male Young --model_save_dir='stargan_celeba_256/models' --result_dir='./results' --test_iters 200000 --attack_iters 100 --batch_size 1
+## For Lab Color Space 
+#### Step 2 : cd LabColorSpace
+#### Step 3 : pip install -r requirements.txt
+#### Step 4 : icacls download.sh /grant Everyone:RX
+#### Step 5 : bash download.sh celeba
+#### Step 6 : python main.py --mode test --image_size 256 --c_dim 5 --selected_attrs Black_Hair Blond_Hair Brown_Hair Male Young --model_save_dir='stargan_celeba_256/models' --result_dir='./results' --test_iters 200000 --attack_iters 100 --batch_size 1
