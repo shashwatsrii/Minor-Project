@@ -8,7 +8,7 @@ Adversarial Filter for Deepfake Prevention
   year={2022}
 }
 
-## Step 1 : git clone https://github.com/shashwatsrii/Minor-Project/tree/main
+#### Step 1 : git clone https://github.com/shashwatsrii/Minor-Project/tree/main
 #### Step 2 : pip install -r requirements.txt
 #### Step 3 : icacls download.sh /grant Everyone:RX
 #### Step 4 : bash download.sh celeba
